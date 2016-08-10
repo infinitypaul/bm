@@ -138,6 +138,15 @@
       <command text="git log" />
       <command text="git config --global user.name &quot;infinitypaul&quot;" />
       <command text="git config --global user.email &quot;infinitypaul@live.com&quot;" />
+      <command text="git add ." />
+      <command text="git commit -m &quot;the first upload batch&quot;" />
+      <command text="git log" />
+      <command text="git clone https://github.com/infinitypaul/bm.git" />
+      <command text="git add ." />
+      <command text="git log" />
+      <command text="git push origin master" />
+      <command text="git status" />
+      <command text="git init" />
     </commandsHistory>
   </component>
   <component name="HighlightingSettingsPerFile">
