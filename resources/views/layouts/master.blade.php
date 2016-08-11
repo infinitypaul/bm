@@ -154,9 +154,9 @@
                     </ul>
                 </div>
                 <div class="col-sm-6 col-md-3">
-                    <h4 class="footer-heading"><span id="year-copy">2014</span> &copy; <a href="http://goo.gl/TDOSuC">ProUI Frontend</a></h4>
+                    <h4 class="footer-heading"><span id="year-copy">2016</span> &copy; <a href="http://goo.gl/TDOSuC">Bible Mastery</a></h4>
                     <ul class="footer-nav list-inline">
-                        <li>Crafted with <i class="fa fa-heart text-danger"></i> by <a href="http://goo.gl/vNS3I">pixelcave</a></li>
+                        <li>Designed by <i class="fa fa-heart text-danger"></i> by <a href="http://goo.gl/vNS3I">Infinitypaul</a></li>
                     </ul>
                 </div>
             </div>

@@ -238,19 +238,19 @@ events <a href="features.html">Learn More..</a></p>
             <div class="col-sm-4">
                 <div class="counter site-block">
                     <span data-toggle="countTo" data-to="6800" data-after="+"></span>
-                    <small>Projects</small>
+                    <small>Traffic</small>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="counter site-block">
                     <span data-toggle="countTo" data-to="5500" data-after="+"></span>
-                    <small>Happy Customers</small>
+                    <small>Questions</small>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="counter site-block">
                     <span data-toggle="countTo" data-to="100" data-after="+"></span>
-                    <small>New Accounts Today</small>
+                    <small>Registration Today</small>
                 </div>
             </div>
         </div>
