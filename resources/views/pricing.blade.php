@@ -39,7 +39,7 @@
                                         </tr>
                                         <tr>
                                             <td class="table-price">
-                                                <h1>$9<br><small>per month</small></h1>
+                                                <h1>&#8358;9<br><small>per month</small></h1>
                                             </td>
                                         </tr>
                                         <tr>
@@ -73,7 +73,7 @@
                                         </tr>
                                         <tr>
                                             <td class="table-price">
-                                                <h1>$39<br><small>per month</small></h1>
+                                                <h1> &#8358;39<br><small>per month</small></h1>
                                             </td>
                                         </tr>
                                         <tr>
@@ -107,7 +107,7 @@
                                         </tr>
                                         <tr>
                                             <td class="table-price">
-                                                <h1>$99<br><small>per month</small></h1>
+                                                <h1>&#8358;99<br><small>per month</small></h1>
                                             </td>
                                         </tr>
                                         <tr>
@@ -141,7 +141,7 @@
                                         </tr>
                                         <tr>
                                             <td class="table-price">
-                                                <h1>$199<br><small>per month</small></h1>
+                                                <h1>&#8358;199<br><small>per month</small></h1>
                                             </td>
                                         </tr>
                                         <tr>

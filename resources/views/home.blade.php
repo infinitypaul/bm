@@ -20,8 +20,8 @@ a web version and online segment of our overall package</strong></h1>
         <div class="item">
             <section class="site-section site-section-light site-section-top themed-background-dark-fire">
                 <div class="container">
-                    <h1 class="text-center animation-fadeIn360 hidden-xs"><strong>Featuring a Powerful and Flexible layout</strong></h1>
-                    <h2 class="text-center animation-fadeIn360 push hidden-xs">Letting you focus on creating your project</h2>
+                    <h1 class="text-center animation-fadeIn360 hidden-xs"><strong>We are available for churches, conventions and events</strong></h1>
+                    <h2 class="text-center animation-fadeIn360 push hidden-xs">We are here to serve you better</h2>
                     <p class="text-center animation-fadeInLeft">
                     	<img src="{{asset('img/placeholders/screenshots/promo_desktop_right.png')}}" alt="Promo Image 2">
                     </p>
@@ -31,8 +31,8 @@ a web version and online segment of our overall package</strong></h1>
         <div class="item">
             <section class="site-section site-section-light site-section-top themed-background-dark-amethyst">
                 <div class="container">
-                    <h1 class="text-center animation-hatch hidden-xs"><strong>Fully Responsive and Retina Ready</strong></h1>
-                    <h2 class="text-center animation-hatch push hidden-xs">The UI will look great and crisp</h2>
+                    <h1 class="text-center animation-hatch hidden-xs"><strong>Ready to master this quiz...?</strong></h1>
+                    <!--<h2 class="text-center animation-hatch push hidden-xs">The UI will look great and crisp</h2>-->
                     <p class="text-center animation-hatch">
                     <img src="{{asset('img/placeholders/screenshots/WB.png')}}" alt="Promo Image 3">
                     </p>
@@ -42,8 +42,9 @@ a web version and online segment of our overall package</strong></h1>
         <div class="item">
             <section class="site-section site-section-light site-section-top themed-background-dark-modern">
                 <div class="container">
-                    <h1 class="text-center animation-fadeInLeft hidden-xs"><strong>Tons of features are designed &amp; waiting for you</strong></h1>
-                    <h2 class="text-center animation-fadeInRight push hidden-xs">Everything you need for your project</h2>
+                    <h1 class="text-center animation-fadeInLeft hidden-xs"><strong> We have 200+ free
+BibleQuizzes for Kids and Teens </strong></h1>
+                    <h2 class="text-center animation-fadeInRight push hidden-xs">We are live on Television!</h2>
                     <p class="text-center animation-fadeIn360">
                     <img src="{{asset('img/placeholders/screenshots/promo_tablet.png')}}" alt="Promo Image 4">
                     </p>
@@ -88,7 +89,7 @@ a web version and online segment of our overall package</strong></h1>
              <img src="{{asset('img/placeholders/screenshots/promo_desktop_left.png')}}" class="img-responsive" alt="Promo #1">
             </div>
             <div class="col-sm-6 col-md-5 col-md-offset-1 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInLeft" data-element-offset="-180">
-                <h3 class="h2 site-heading site-heading-promo"><strong>Clean and Modern</strong> Design</h3>
+                <h3 class="h2 site-heading site-heading-promo"><strong>Well structured</strong> Question</h3>
                 <p class="promo-content">We have well over 6000 BibleQuizzes online available for practice We also have more than 200 free BibleQuizzes for kids and teens Click on the link to participate or go directly to the link above for
 more <a href="features.html">Click here..</a></p>
             </div>
@@ -103,8 +104,10 @@ more <a href="features.html">Click here..</a></p>
     <div class="container">
         <div class="row">
             <div class="col-sm-6 col-md-5 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInRight" data-element-offset="-180">
-                <h3 class="h2 site-heading site-heading-promo"><strong>Powerful</strong> Admin Template</h3>
-                <p class="promo-content">ProUI has a powerful and flexible layout to meet every need. It comes packed with 9 awesome and fresh color themes that you will love, too. <a href="features.html">Learn More..</a></p>
+                <h3 class="h2 site-heading site-heading-promo"><strong>Powerful</strong> Quiz Template</h3>
+                <p class="promo-content">With our unique Quiz template, our team will engage the
+audience in a lively BibleQuiz presentation
+ <a href="features.html">Learn More..</a></p>
             </div>
             <div class="col-sm-6 col-md-offset-1 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInLeft" data-element-offset="-180">
             <img src="{{asset('img/placeholders/screenshots/promo_desktop_right.png')}}" class="img-responsive" alt="Promo #2">
@@ -123,8 +126,8 @@ more <a href="features.html">Click here..</a></p>
             <img src="{{asset('img/placeholders/screenshots/promo_tablet.png')}}" class="img-responsive" alt="Promo #3">
             </div>
             <div class="col-sm-6 col-md-5 col-md-offset-1 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInLeft" data-element-offset="-180">
-                <h3 class="h2 site-heading site-heading-promo"><strong>Fully</strong> Responsive</h3>
-                <p class="promo-content">The User Interface will just work in mobile phones, tablets, laptops and desktops. You can focus on creating the project you want. <a href="features.html">Learn More..</a></p>
+                <h3 class="h2 site-heading site-heading-promo"><strong>Win a predetermined </strong>grand-prize</h3>
+                <p class="promo-content">Our Television audience engage in a series of competition for weeks until a winner emerge  <a href="features.html">Learn More..</a></p>
             </div>
         </div>
         <hr>
@@ -137,8 +140,10 @@ more <a href="features.html">Click here..</a></p>
     <div class="container">
         <div class="row">
             <div class="col-sm-6 col-md-5 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInRight" data-element-offset="-180">
-                <h3 class="h2 site-heading site-heading-promo"><strong>Mobile</strong> First</h3>
-                <p class="promo-content">The layout adjusts as we move up from mobile devices to large desktop screens and not the other way around. This speed things up a lot. <a href="features.html">Learn More..</a></p>
+                <h3 class="h2 site-heading site-heading-promo"><strong>Get to Know</strong> us</h3>
+                <p class="promo-content">We encourage churches to send representatives for auditions. Use the available form to
+invite us to your church, seminars and
+events <a href="features.html">Learn More..</a></p>
             </div>
             <div class="col-sm-6 col-md-offset-1 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInLeft" data-element-offset="-180">
             <img src="{{asset('img/placeholders/screenshots/promo_mobile.png')}}" class="img-responsive" alt="Promo #4">
@@ -204,7 +209,7 @@ more <a href="features.html">Click here..</a></p>
 <!-- Sign Up Action -->
 <section class="site-content site-section site-section-light themed-background-dark-night">
     <div class="container">
-        <h3 class="site-heading text-center"><strong>Sign Up Today</strong> and receive <strong>30% discount</strong>!</h3>
+        <h3 class="site-heading text-center"><strong>Sign Up Today</strong> and start a <strong>quiz</strong>!</h3>
         <div class="site-block text-center">
             <form action="features.html" method="post" class="form-horizontal" onsubmit="return false;">
                 <div class="form-group">

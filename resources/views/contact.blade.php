@@ -70,7 +70,13 @@
                             <div class="site-block">
                                 <h3 class="h2 site-heading"><strong>About</strong> Us</h3>
                                 <p class="remove-margin">
-                                    In hac habitasse platea dictumst. Proin ac nibh rutrum lectus rhoncus eleifend. Sed porttitor pretium venenatis. Suspendisse potenti. Aliquam quis ligula elit. Aliquam at orci ac neque semper dictum. Sed tincidunt scelerisque ligula, et facilisis nulla hendrerit non. Suspendisse potenti.
+                                    BibleMastery is
+a web version and online segment of our overall package.
+
+We have over 6000 BibleQuizzes online available for
+practice.We also have
+more than 200 free BibleQuizzes for kids and
+teens...
                                 </p>
                             </div>
                         </div>
