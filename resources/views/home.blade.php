@@ -86,7 +86,7 @@ BibleQuizzes for Kids and Teens </strong></h1>
     <div class="container">
         <div class="row">
             <div class="col-sm-6 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInRight" data-element-offset="-180">
-             <img src="{{asset('img/placeholders/screenshots/promo_desktop_left.png')}}" class="img-responsive" alt="Promo #1">
+             <img src="{{asset('img/placeholders/screenshots/bible.png')}}" class="img-responsive" alt="Promo #1">
             </div>
             <div class="col-sm-6 col-md-5 col-md-offset-1 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInLeft" data-element-offset="-180">
                 <h3 class="h2 site-heading site-heading-promo"><strong>Well structured</strong> Question</h3>
@@ -123,11 +123,11 @@ audience in a lively BibleQuiz presentation
     <div class="container">
         <div class="row">
             <div class="col-sm-6 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInRight" data-element-offset="-180">
-            <img src="{{asset('img/placeholders/screenshots/promo_tablet.png')}}" class="img-responsive" alt="Promo #3">
+            <img src="{{asset('img/placeholders/screenshots/grandprize.png')}}" class="img-responsive" alt="Promo #3">
             </div>
             <div class="col-sm-6 col-md-5 col-md-offset-1 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInLeft" data-element-offset="-180">
-                <h3 class="h2 site-heading site-heading-promo"><strong>Win a predetermined </strong>grand-prize</h3>
-                <p class="promo-content">Our Television audience engage in a series of competition for weeks until a winner emerge  <a href="features.html">Learn More..</a></p>
+                <h3 class="h2 site-heading site-heading-promo"><strong>Win a Predetermined </strong>Grand Prize</h3>
+                <p class="promo-content">Our Television audience engage in a series of competition for weeks until a winner emerge  <a href="#">Learn More..</a></p>
             </div>
         </div>
         <hr>
@@ -146,7 +146,7 @@ invite us to your church, seminars and
 events <a href="features.html">Learn More..</a></p>
             </div>
             <div class="col-sm-6 col-md-offset-1 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInLeft" data-element-offset="-180">
-            <img src="{{asset('img/placeholders/screenshots/promo_mobile.png')}}" class="img-responsive" alt="Promo #4">
+            <img src="{{asset('img/placeholders/screenshots/ccare.png')}}" class="img-responsive" alt="Promo #4">
             </div>
         </div>
         <hr>
