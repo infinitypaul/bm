@@ -8,10 +8,11 @@
         <div class="active item">
             <section class="site-section site-section-light site-section-top themed-background-dark-default">
                 <div class="container">
-                    <h1 class="text-center animation-slideDown hidden-xs"><strong>A complete web solution for your awesome project</strong></h1>
-                    <h2 class="text-center animation-slideUp push hidden-xs">Bring your project to life months sooner</h2>
+                    <h1 class="text-center animation-slideDown hidden-xs"><strong>BibleMastery is
+a web version and online segment of our overall package</strong></h1>
+                    <h2 class="text-center animation-slideUp push hidden-xs"></h2>
                     <p class="text-center animation-fadeIn">
-                        <img src="img/placeholders/screenshots/promo_desktop_left.png" alt="Promo Image 1">
+                    	<img src="{{asset('img/placeholders/screenshots/promo_desktop_left.png')}}">
                     </p>
                 </div>
             </section>
@@ -22,7 +23,7 @@
                     <h1 class="text-center animation-fadeIn360 hidden-xs"><strong>Featuring a Powerful and Flexible layout</strong></h1>
                     <h2 class="text-center animation-fadeIn360 push hidden-xs">Letting you focus on creating your project</h2>
                     <p class="text-center animation-fadeInLeft">
-                        <img src="img/placeholders/screenshots/promo_desktop_right.png" alt="Promo Image 2">
+                    	<img src="{{asset('img/placeholders/screenshots/promo_desktop_right.png')}}" alt="Promo Image 2">
                     </p>
                 </div>
             </section>
@@ -33,7 +34,7 @@
                     <h1 class="text-center animation-hatch hidden-xs"><strong>Fully Responsive and Retina Ready</strong></h1>
                     <h2 class="text-center animation-hatch push hidden-xs">The UI will look great and crisp</h2>
                     <p class="text-center animation-hatch">
-                        <img src="img/placeholders/screenshots/promo_mobile.png" alt="Promo Image 3">
+                    <img src="{{asset('img/placeholders/screenshots/WB.png')}}" alt="Promo Image 3">
                     </p>
                 </div>
             </section>
@@ -44,7 +45,7 @@
                     <h1 class="text-center animation-fadeInLeft hidden-xs"><strong>Tons of features are designed &amp; waiting for you</strong></h1>
                     <h2 class="text-center animation-fadeInRight push hidden-xs">Everything you need for your project</h2>
                     <p class="text-center animation-fadeIn360">
-                        <img src="img/placeholders/screenshots/promo_tablet.png" alt="Promo Image 4">
+                    <img src="{{asset('img/placeholders/screenshots/promo_tablet.png')}}" alt="Promo Image 4">
                     </p>
                 </div>
             </section>
@@ -84,11 +85,12 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInRight" data-element-offset="-180">
-                <img src="img/placeholders/screenshots/promo_desktop_left.png" alt="Promo #1" class="img-responsive">
+             <img src="{{asset('img/placeholders/screenshots/promo_desktop_left.png')}}" class="img-responsive" alt="Promo #1">
             </div>
             <div class="col-sm-6 col-md-5 col-md-offset-1 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInLeft" data-element-offset="-180">
                 <h3 class="h2 site-heading site-heading-promo"><strong>Clean and Modern</strong> Design</h3>
-                <p class="promo-content">ProUI is a professional, modern and solid foundation for your next awesome project. It comes packed with great features that you will love. <a href="features.html">Learn More..</a></p>
+                <p class="promo-content">We have well over 6000 BibleQuizzes online available for practice We also have more than 200 free BibleQuizzes for kids and teens Click on the link to participate or go directly to the link above for
+more <a href="features.html">Click here..</a></p>
             </div>
         </div>
         <hr>
@@ -105,7 +107,7 @@
                 <p class="promo-content">ProUI has a powerful and flexible layout to meet every need. It comes packed with 9 awesome and fresh color themes that you will love, too. <a href="features.html">Learn More..</a></p>
             </div>
             <div class="col-sm-6 col-md-offset-1 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInLeft" data-element-offset="-180">
-                <img src="img/placeholders/screenshots/promo_desktop_right.png" alt="Promo #2" class="img-responsive">
+            <img src="{{asset('img/placeholders/screenshots/promo_desktop_right.png')}}" class="img-responsive" alt="Promo #2">
             </div>
         </div>
         <hr>
@@ -118,7 +120,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInRight" data-element-offset="-180">
-                <img src="img/placeholders/screenshots/promo_tablet.png" alt="Promo #3" class="img-responsive">
+            <img src="{{asset('img/placeholders/screenshots/promo_tablet.png')}}" class="img-responsive" alt="Promo #3">
             </div>
             <div class="col-sm-6 col-md-5 col-md-offset-1 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInLeft" data-element-offset="-180">
                 <h3 class="h2 site-heading site-heading-promo"><strong>Fully</strong> Responsive</h3>
@@ -139,7 +141,7 @@
                 <p class="promo-content">The layout adjusts as we move up from mobile devices to large desktop screens and not the other way around. This speed things up a lot. <a href="features.html">Learn More..</a></p>
             </div>
             <div class="col-sm-6 col-md-offset-1 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInLeft" data-element-offset="-180">
-                <img src="img/placeholders/screenshots/promo_mobile.png" alt="Promo #4" class="img-responsive">
+            <img src="{{asset('img/placeholders/screenshots/promo_mobile.png')}}" class="img-responsive" alt="Promo #4">
             </div>
         </div>
         <hr>
@@ -173,7 +175,8 @@
                 </div>
                 <div class="item">
                     <p>
-                        <img src="img/placeholders/avatars/avatar7.jpg" alt="Avatar" class="img-circle">
+               <img src="{{asset('img/placeholders/avatars/avatar7.jpg')}}" class="img-circle" alt="Avatar">
+                    
                     </p>
                     <blockquote class="no-symbol">
                         <p>I have never imagined that our final product would look that good!</p>
@@ -182,7 +185,8 @@
                 </div>
                 <div class="item">
                     <p>
-                        <img src="img/placeholders/avatars/avatar9.jpg" alt="Avatar" class="img-circle">
+             <img src="{{asset('img/placeholders/avatars/avatar9.jpg')}}" class="img-circle" alt="Avatar">
+                  
                     </p>
                     <blockquote class="no-symbol">
                         <p>An extraordinary service that helped us grow way too fast!</p>

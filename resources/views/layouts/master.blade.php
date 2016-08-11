@@ -14,33 +14,34 @@
 
     <!-- Icons -->
     <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
-    <link rel="shortcut icon" href="img/favicon.png">
-    <link rel="apple-touch-icon" href="img/icon57.png" sizes="57x57">
-    <link rel="apple-touch-icon" href="img/icon72.png" sizes="72x72">
-    <link rel="apple-touch-icon" href="img/icon76.png" sizes="76x76">
-    <link rel="apple-touch-icon" href="img/icon114.png" sizes="114x114">
-    <link rel="apple-touch-icon" href="img/icon120.png" sizes="120x120">
-    <link rel="apple-touch-icon" href="img/icon144.png" sizes="144x144">
-    <link rel="apple-touch-icon" href="img/icon152.png" sizes="152x152">
-    <link rel="apple-touch-icon" href="img/icon180.png" sizes="180x180">
+    <link rel="shortcut icon" href="{{asset('img/favicon.png')}}">
+    <link rel="apple-touch-icon" href="{{asset('img/icon57.png')}}" sizes="57x57">
+    <link rel="apple-touch-icon" href="{{asset('img/icon72.png')}}" sizes="72x72">
+    <link rel="apple-touch-icon" href="{{asset('img/icon76.png')}}" sizes="76x76">
+    <link rel="apple-touch-icon" href="{{asset('img/icon114.png')}}" sizes="114x114">
+    <link rel="apple-touch-icon" href="{{asset('img/icon120.png')}}" sizes="120x120">
+    <link rel="apple-touch-icon" href="{{asset('img/icon144.png')}}" sizes="144x144">
+    <link rel="apple-touch-icon" href="{{asset('img/icon152.png')}}" sizes="152x152">
+    <link rel="apple-touch-icon" href="{{asset('img/icon180.png')}}" sizes="180x180">
     <!-- END Icons -->
 
     <!-- Stylesheets -->
     <!-- Bootstrap is included in its original form, unaltered -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
 
     <!-- Related styles of various icon packs and plugins -->
-    <link rel="stylesheet" href="css/plugins.css">
+    <link rel="stylesheet" href="{{asset('css/plugins.css')}}">
 
     <!-- The main stylesheet of this template. All Bootstrap overwrites are defined in here -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="{{asset('css/main.css')}}">
 
     <!-- The themes stylesheet of this template (for using specific theme color in individual elements - must included last) -->
-    <link rel="stylesheet" href="css/themes.css">
+    <link rel="stylesheet" href="{{asset('css/themes.css')}}">
     <!-- END Stylesheets -->
 
     <!-- Modernizr (browser feature detection library) & Respond.js (enables responsive CSS code on browsers that don't support it, eg IE8) -->
-    <script src="js/vendor/modernizr-respond.min.js"></script>
+    <script src="{{asset('js/vendor/modernizr-respond.min.js')}}"></script>
+    
 </head>
 <body>
 <!-- Page Container -->
@@ -75,95 +76,24 @@
                     </li>
                     <!-- END Menu Toggle -->
                     <li class="active">
-                        <a href="javascript:void(0)" class="site-nav-sub"><i class="fa fa-angle-down site-nav-arrow"></i>Home</a>
-                        <ul>
-                            <li>
-                                <a href="index.html">Full Width</a>
-                            </li>
-                            <li>
-                                <a href="index_alt.html" class="active">Full Width (Dark)</a>
-                            </li>
-                            <li>
-                                <a href="index_parallax.html">Full Width Parallax</a>
-                            </li>
-                            <li>
-                                <a href="index_video.html">Full Width Video</a>
-                            </li>
-                            <li>
-                                <a href="index_boxed.html">Boxed</a>
-                            </li>
-                            <li>
-                                <a href="index_boxed_alt.html">Boxed (Dark)</a>
-                            </li>
-                            <li>
-                                <a href="index_boxed_parallax.html">Boxed Parallax</a>
-                            </li>
-                            <li>
-                                <a href="index_boxed_video.html">Boxed Video</a>
-                            </li>
-                        </ul>
+                        <a href=""></i>Home</a>
+                       <!--i Remove here -->
+                       
                     </li>
                     <li>
                         <a href="javascript:void(0)" class="site-nav-sub"><i class="fa fa-angle-down site-nav-arrow"></i>Pages</a>
                         <ul>
                             <li>
-                                <a href="blog.html">Blog</a>
+								<!--i Remove here -->
+                                
+                                <a href="quiz.html">Quiz</a>
                             </li>
                             <li>
-                                <a href="blog_post.html">Blog Post</a>
-                            </li>
-                            <li>
-                                <a href="portfolio_4.html">Portfolio 4 Columns</a>
-                            </li>
-                            <li>
-                                <a href="portfolio_3.html">Portfolio 3 Columns</a>
-                            </li>
-                            <li>
-                                <a href="portfolio_2.html">Portfolio 2 Columns</a>
-                            </li>
-                            <li>
-                                <a href="portfolio_single.html">Portfolio Single</a>
-                            </li>
-                            <li>
-                                <a href="team.html">Team</a>
-                            </li>
-                            <li>
-                                <a href="helpdesk.html">Helpdesk</a>
-                            </li>
-                            <li>
-                                <a href="jobs.html">Jobs</a>
-                            </li>
-                            <li>
-                                <a href="how_it_works.html">How it works</a>
+                                <a href="how_it_works.php">How it works</a>
                             </li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="javascript:void(0)" class="site-nav-sub"><i class="fa fa-angle-down site-nav-arrow"></i>eCommerce</a>
-                        <ul>
-                            <li>
-                                <a href="ecom_home.html">Home</a>
-                            </li>
-                            <li>
-                                <a href="ecom_search_results.html">Search Results</a>
-                            </li>
-                            <li>
-                                <a href="ecom_product_list.html">Product List</a>
-                            </li>
-                            <li>
-                                <a href="ecom_product.html">Product</a>
-                            </li>
-                            <li>
-                                <a href="ecom_product_comparison.html">Product Comparison</a>
-                            </li>
-                            <li>
-                                <a href="ecom_shopping_cart.html">Shopping Cart</a>
-                            </li>
-                            <li>
-                                <a href="ecom_checkout.html">Checkout</a>
-                            </li>
-                        </ul>
-                    </li>
+                    
                     <li>
                         <a href="features.html">Features</a>
                     </li>
@@ -174,7 +104,7 @@
                         <a href="contact.html">Contact</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="{{ route('about') }}">About</a>
                     </li>
                     <li>
                         <a href="login.html" class="btn btn-primary">Log In</a>
@@ -241,9 +171,10 @@
 <a href="#" id="to-top"><i class="fa fa-angle-up"></i></a>
 
 <!-- jQuery, Bootstrap.js, jQuery plugins and Custom JS code -->
-<script src="js/vendor/jquery-1.12.0.min.js"></script>
-<script src="js/vendor/bootstrap.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/app.js"></script>
+<script src="{{asset('js/vendor/jquery-1.12.0.min.js')}}"></script>
+<script src="{{asset('js/vendor/bootstrap.min.js')}}"></script>
+<script src="{{asset('js/plugins.js')}}"></script>
+<script src="{{asset('js/app.js')}}"></script>
+
 </body>
 </html>

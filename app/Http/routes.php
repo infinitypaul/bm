@@ -15,6 +15,26 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/about', function () {
-    return view('home');
+Route::get('/contactus', function () {
+    return view('contact');
+});
+
+Route::get('/aboutus', array('as'=>'about', function () {
+    return view('about');
+}));
+
+Route::get('/quiz', function () {
+    return view('quiz');
+});
+
+Route::get('/pricing', function () {
+    return view('pricing');
+});
+
+Route::get('/howitwork', function () {
+    return view('how_it_works');
+});
+
+Route::get('/features', function () {
+    return view('features');
 });
