@@ -15,7 +15,7 @@
             <section class="site-content site-section">
                 <div class="container text-center">
                     <div class="site-block">
-                        <img src="img/placeholders/screenshots/promo_all_devices.png" alt="Promo Image" class="img-responsive visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeIn" data-element-offset="-100">
+                        <img src="img/placeholders/screenshots/features.png" alt="Promo Image" class="img-responsive visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeIn" data-element-offset="-100">
                     </div>
                     <hr>
                 </div>
@@ -28,15 +28,15 @@
                     <div class="row">
                         <div class="col-sm-4 site-block">
                             <h3 class="site-heading"><i class="fa fa-arrow-right animation-floatingHor"></i> <strong>Work</strong> Smart</h3>
-                            <p class="remove-margin">In hac habitasse platea dictumst. Proin ac nibh rutrum lectus rhoncus eleifend. Sed porttitor pretium venenatis. Suspendisse potenti. Aliquam quis ligula elit. Aliquam at orci ac neque semper dictum. Sed tincidunt scelerisque ligula, et facilisis nulla hendrerit non. Suspendisse potenti. Pellentesque non accumsan orci. Praesent at lacinia dolor.</p>
+                            <p class="remove-margin">At Bible Mastery we work smart and not hard, we master the concept and studing becomes easier for us.</p>
                         </div>
                         <div class="col-sm-4 site-block">
                             <h3 class="site-heading"><i class="fa fa-arrow-right animation-floatingHor"></i> <strong>Save</strong> Time</h3>
-                            <p class="remove-margin">In hac habitasse platea dictumst. Proin ac nibh rutrum lectus rhoncus eleifend. Sed porttitor pretium venenatis. Suspendisse potenti. Aliquam quis ligula elit. Aliquam at orci ac neque semper dictum. Sed tincidunt scelerisque ligula, et facilisis nulla hendrerit non. Suspendisse potenti. Pellentesque non accumsan orci. Praesent at lacinia dolor.</p>
+                            <p class="remove-margin">At Bible Mastery we save time for time is an essecial part of human life.</p>
                         </div>
                         <div class="col-sm-4 site-block">
-                            <h3 class="site-heading"><i class="fa fa-check text-success animation-pulse"></i> <strong>Build</strong> Great Products</h3>
-                            <p class="remove-margin">In hac habitasse platea dictumst. Proin ac nibh rutrum lectus rhoncus eleifend. Sed porttitor pretium venenatis. Suspendisse potenti. Aliquam quis ligula elit. Aliquam at orci ac neque semper dictum. Sed tincidunt scelerisque ligula, et facilisis nulla hendrerit non. Suspendisse potenti. Pellentesque non accumsan orci. Praesent at lacinia dolor.</p>
+                            <h3 class="site-heading"><i class="fa fa-check text-success animation-pulse"></i> <strong>Get</strong> closer to God</h3>
+                            <p class="remove-margin">At Bible Mastery we help you grow your relationship with God.</p>
                         </div>
                     </div>
                     <hr>
@@ -52,22 +52,22 @@
                             <a href="javascript:void(0)" class="circle visibility-none themed-background-fire" data-toggle="animation-appear" data-animation-class="animation-fadeIn360" data-element-offset="-100">
                                 <i class="gi gi-fire"></i>
                             </a>
-                            <h4 class="site-heading"><strong>Bootstrap</strong> Powered</h4>
-                            <p class="text-left remove-margin">Bootstrap is a sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development. ProUI was built on top, extending it to a large degree.</p>
+                            <h4 class="site-heading"><strong>Simple</strong><!--Responsive--> </h4>
+                            <p class="text-left remove-margin">Our platform is very simple to use and it is user friendly.</p>
                         </div>
                         <div class="col-sm-4">
                             <a href="javascript:void(0)" class="circle visibility-none themed-background" data-toggle="animation-appear" data-animation-class="animation-fadeIn360" data-element-offset="-100">
                                 <i class="gi gi-iphone_shake"></i>
                             </a>
-                            <h4 class="site-heading"><strong>Fully</strong> Responsive</h4>
-                            <p class="text-left remove-margin">The User Interface will adjust to any screen size. It will look great on mobile devices and on desktops at the same time. No need to worry about the UI, just stay focused on the development.</p>
+                            <h4 class="site-heading"><strong>Educational</strong> <!--Responsive--></h4>
+                            <p class="text-left remove-margin">We facilitate learning of the word of God and help in acquisition of knowledge of the word of God.</p>
                         </div>
                         <div class="col-sm-4">
                             <a href="javascript:void(0)" class="circle visibility-none themed-background-flatie" data-toggle="animation-appear" data-animation-class="animation-fadeIn360" data-element-offset="-100">
                                 <i class="gi gi-eye_open"></i>
                             </a>
                             <h4 class="site-heading"><strong>Retina</strong> Ready</h4>
-                            <p class="text-left remove-margin">It will look crispy clear on high resolution screens and at the same time it will serve your high quality images as required.</p>
+                            <p class="text-left remove-margin">Clear on high resolution screens and at the same time it will serve you better.</p>
                         </div>
                     </div>
                     <div class="row row-items">
@@ -75,22 +75,22 @@
                             <a href="javascript:void(0)" class="circle visibility-none themed-background-amethyst" data-toggle="animation-appear" data-animation-class="animation-fadeIn360" data-element-offset="-100">
                                 <i class="gi gi-globe_af"></i>
                             </a>
-                            <h4 class="site-heading"><strong>Cross Browser</strong> Support</h4>
-                            <p class="text-left remove-margin">ProUI will play nice with all modern browsers such as Chrome, Firefox, Safari, Opera and the latest versions of Internet Explorer. In fact, it supports even IE8, so don't worry about losing any customers who stuck with it.</p>
+                            <h4 class="site-heading"><strong>Our</strong> Service</h4>
+                            <p class="text-left remove-margin">Bible Mastery is a simple online tool that aid your knowledge about the word of God.</p>
                         </div>
                         <div class="col-sm-4">
                             <a href="javascript:void(0)" class="circle visibility-none themed-background-spring" data-toggle="animation-appear" data-animation-class="animation-fadeIn360" data-element-offset="-100">
                                 <i class="gi gi-flash"></i>
                             </a>
-                            <h4 class="site-heading"><strong>Lightweight</strong> UI</h4>
-                            <p class="text-left remove-margin">ProUI is not bloated with Jquery plugins and created to be as fast and lightweight as possible. Also, striping out the features you won't use, it is just a matter of seconds.</p>
+                            <h4 class="site-heading"><strong>Competition on</strong> Television</h4>
+                            <p class="text-left remove-margin">Our Television audience engage in a series of competition for weeks until a winner emerge.</p>
                         </div>
                         <div class="col-sm-4">
                             <a href="javascript:void(0)" class="circle visibility-none themed-background-autumn" data-toggle="animation-appear" data-animation-class="animation-fadeIn360" data-element-offset="-100">
                                 <i class="gi gi-iphone"></i>
                             </a>
-                            <h4 class="site-heading"><strong>Mobile</strong> First</h4>
-                            <p class="text-left remove-margin">The layout adjusts as we move up from mobile devices to large desktop screens and not the other way around. This speed things up a lot.</p>
+                            <h4 class="site-heading"><strong>Be free to </strong>call us</h4>
+                            <p class="text-left remove-margin">Use the contact button whenever our service is need, We are available for churches, conventions and events.</p>
                         </div>
                     </div>
                     <div class="row row-items">
@@ -98,22 +98,22 @@
                             <a href="javascript:void(0)" class="circle visibility-none themed-background-night" data-toggle="animation-appear" data-animation-class="animation-fadeIn360" data-element-offset="-100">
                                 <i class="gi gi-settings"></i>
                             </a>
-                            <h4 class="site-heading"><strong>Awesome</strong> Components</h4>
-                            <p class="text-left remove-margin">ProUI comes packed with so many awesome components. Calendar, CSS3 Animations, Form Wizards, Form Validation, Syntax Highlighting and Charts are only a small portion of them. Check them all out at the live preview.</p>
+                            <h4 class="site-heading"><strong>Motivational</strong> Questions</h4>
+                            <p class="text-left remove-margin">Our questions motivate people to develop themselves in order to act in the way of God.</p>
                         </div>
                         <div class="col-sm-4">
                             <a href="javascript:void(0)" class="circle visibility-none themed-background-fancy" data-toggle="animation-appear" data-animation-class="animation-fadeIn360" data-element-offset="-100">
                                 <i class="gi gi-electricity"></i>
                             </a>
-                            <h4 class="site-heading"><strong>Flexible</strong> Layout</h4>
-                            <p class="text-left remove-margin">Create the layout you want for your project in seconds. Would you like a static layout? A fixed header and sidebars? A fixed footer? An alternative sidebar? You can have it!</p>
+                            <h4 class="site-heading"><strong>Inspiring</strong> Questions</h4>
+                            <p class="text-left remove-margin">Our questions will motivate you to seek for more word of God even more than what you think of.</p>
                         </div>
                         <div class="col-sm-4">
                             <a href="javascript:void(0)" class="circle visibility-none themed-background-modern" data-toggle="animation-appear" data-animation-class="animation-fadeIn360" data-element-offset="-100">
                                 <i class="gi gi-tint"></i>
                             </a>
-                            <h4 class="site-heading"><strong>9 Awesome</strong> Colors</h4>
-                            <p class="text-left remove-margin">ProUI features 9 carefully chosen and integrated color themes to choose from. It's like getting a new template every time you change the active color theme.</p>
+                            <h4 class="site-heading"><strong>Challenging</strong> Questions</h4>
+                            <p class="text-left remove-margin">Our questions will challenge you and make you go back to your bible to learn more about God.</p>
                         </div>
                     </div>
                     <hr>
@@ -141,8 +141,8 @@
                                     <img src="img/placeholders/avatars/avatar12.jpg" alt="Avatar" class="img-circle">
                                 </p>
                                 <blockquote class="no-symbol">
-                                    <p>An awesome team that brought our ideas to life! Highly recommended!</p>
-                                    <footer><strong>Sophie Illich</strong>, example.com</footer>
+                                    <p><small>I have a better understanding of the Bible due to my participation in quizzing and pouring over those valuable passages.  I remember more lessons from the Bible because of quizzing.  God wrote those lessons on my heart and to this day the Spirit will bring those back to me.  God helped me learn the passages if I just put Him first.  I have never once regretted one moment I put toward quizzing and learning God’s Word.</small></p>
+                                    <footer><strong>Micheal Odupitan</strong>, example.com</footer>
                                 </blockquote>
                             </div>
                             <div class="item">
@@ -150,8 +150,8 @@
                                     <img src="img/placeholders/avatars/avatar7.jpg" alt="Avatar" class="img-circle">
                                 </p>
                                 <blockquote class="no-symbol">
-                                    <p>I have never imagined that our final product would look that good!</p>
-                                    <footer><strong>David Cull</strong>, example.com</footer>
+                                    <p><small>As a parent, I have memorized right along with my younger ones.  I have seen what wonderful little sponges their brains are and how easily they can retain what they’ve learned.  I have seen the benefits of ‘training your brain’ academically.  The biggest blessing lately has been to see how obeying God by hiding His Word in our hearts.</small></p>
+                                    <footer><strong>DMrs Folashade</strong>, example.com</footer>
                                 </blockquote>
                             </div>
                             <div class="item">
@@ -159,8 +159,8 @@
                                     <img src="img/placeholders/avatars/avatar9.jpg" alt="Avatar" class="img-circle">
                                 </p>
                                 <blockquote class="no-symbol">
-                                    <p>An extraordinary service that helped us grow way too fast!</p>
-                                    <footer><strong>Nathan Brown</strong>, example.com</footer>
+                                    <p><small>Memorizing scripture has also been a big plus for me.  I believe that being able to memorize entire books of the Bible has really helped me to understand the message of the gospel and resist the tendency to focus on one idea from scripture at the expense of others.  Learning to memorize the Bible still aids me in meditating on scripture, and this is one of the main ways I am able to make contact with God in my life.</small></p>
+                                    <footer><strong>Timothy Simon</strong>, example.com</footer>
                                 </blockquote>
                             </div>
                         </div>
@@ -174,7 +174,7 @@
             <!-- Sign Up Action -->
             <section class="site-content site-section site-section-light themed-background-dark-night">
                 <div class="container">
-                    <h3 class="site-heading text-center"><strong>Sign Up Today</strong> and receive <strong>30% discount</strong>!</h3>
+                    <h3 class="site-heading text-center"><strong>Sign Up Today</strong> and start a <strong>quiz</strong>!</h3>
                     <div class="site-block text-center">
                         <form action="features.html" method="post" class="form-horizontal" onsubmit="return false;">
                             <div class="form-group">
@@ -203,19 +203,19 @@
                         <div class="col-sm-4">
                             <div class="counter site-block">
                                 <span data-toggle="countTo" data-to="6800" data-after="+"></span>
-                                <small>Projects</small>
+                                <small>Traffic</small>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="counter site-block">
                                 <span data-toggle="countTo" data-to="5500" data-after="+"></span>
-                                <small>Happy Customers</small>
+                                <small>Questions</small>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="counter site-block">
                                 <span data-toggle="countTo" data-to="100" data-after="+"></span>
-                                <small>New Accounts Today</small>
+                                <small>Registration Today</small>
                             </div>
                         </div>
                     </div>

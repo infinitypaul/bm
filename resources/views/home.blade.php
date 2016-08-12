@@ -73,8 +73,8 @@ BibleQuizzes for Kids and Teens </strong></h1>
 <section class="site-content site-section">
     <div class="container">
         <div class="site-block text-center">
-            <a href="http://goo.gl/TDOSuC" class="btn btn-lg btn-success"><i class="fa fa-shopping-cart"></i> Purchase ProUI ($21)</a>
-            <a href="http://pixelcave.com/demo/proui" class="btn btn-lg btn-primary"><i class="fa fa-share"></i> Live Preview</a>
+            <a href="#" class="btn btn-lg btn-success"><i class="fa fa-shopping-cart"></i> Register</a>
+            <a href="#" class="btn btn-lg btn-primary"><i class="fa fa-share"></i> Live Preview</a>
         </div>
         <hr>
     </div>
@@ -91,7 +91,7 @@ BibleQuizzes for Kids and Teens </strong></h1>
             <div class="col-sm-6 col-md-5 col-md-offset-1 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInLeft" data-element-offset="-180">
                 <h3 class="h2 site-heading site-heading-promo"><strong>Well structured</strong> Question</h3>
                 <p class="promo-content">We have well over 6000 BibleQuizzes online available for practice We also have more than 200 free BibleQuizzes for kids and teens Click on the link to participate or go directly to the link above for
-more <a href="features.html">Click here..</a></p>
+more <a href="{{ route('quiz') }}">Click here..</a></p>
             </div>
         </div>
         <hr>
@@ -106,8 +106,8 @@ more <a href="features.html">Click here..</a></p>
             <div class="col-sm-6 col-md-5 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInRight" data-element-offset="-180">
                 <h3 class="h2 site-heading site-heading-promo"><strong>Powerful</strong> Quiz Template</h3>
                 <p class="promo-content">With our unique Quiz template, our team will engage the
-audience in a lively BibleQuiz presentation
- <a href="features.html">Learn More..</a></p>
+audience in a lively BibleQuiz presentation. <br />We are available for churches, conventions and events
+ <a href="{{ route('about') }}">Learn More..</a></p>
             </div>
             <div class="col-sm-6 col-md-offset-1 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInLeft" data-element-offset="-180">
             <img src="{{asset('img/placeholders/screenshots/promo_desktop_right.png')}}" class="img-responsive" alt="Promo #2">
@@ -127,7 +127,7 @@ audience in a lively BibleQuiz presentation
             </div>
             <div class="col-sm-6 col-md-5 col-md-offset-1 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInLeft" data-element-offset="-180">
                 <h3 class="h2 site-heading site-heading-promo"><strong>Win a Predetermined </strong>Grand Prize</h3>
-                <p class="promo-content">Our Television audience engage in a series of competition for weeks until a winner emerge  <a href="#">Learn More..</a></p>
+                <p class="promo-content">How well did you know the Bible? Take a quiz today and win yourself a predetemined grand price. <br> Our Television audience engage in a series of competition for weeks until a winner emerge  <a href="{{ route('contact') }}">Learn More..</a></p>
             </div>
         </div>
         <hr>
@@ -143,7 +143,7 @@ audience in a lively BibleQuiz presentation
                 <h3 class="h2 site-heading site-heading-promo"><strong>Get to Know</strong> us</h3>
                 <p class="promo-content">We encourage churches to send representatives for auditions. Use the available form to
 invite us to your church, seminars and
-events <a href="features.html">Learn More..</a></p>
+events <a href="{{ route('contact') }}">Learn More..</a></p>
             </div>
             <div class="col-sm-6 col-md-offset-1 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInLeft" data-element-offset="-180">
             <img src="{{asset('img/placeholders/screenshots/ccare.png')}}" class="img-responsive" alt="Promo #4">
@@ -174,8 +174,8 @@ events <a href="features.html">Learn More..</a></p>
                         <img src="img/placeholders/avatars/avatar12.jpg" alt="Avatar" class="img-circle">
                     </p>
                     <blockquote class="no-symbol">
-                        <p>An awesome team that brought our ideas to life! Highly recommended!</p>
-                        <footer><strong>Sophie Illich</strong>, example.com</footer>
+                        <p><small>I have a better understanding of the Bible due to my participation in quizzing and pouring over those valuable passages.  I remember more lessons from the Bible because of quizzing.  God wrote those lessons on my heart and to this day the Spirit will bring those back to me.  God helped me learn the passages if I just put Him first.  I have never once regretted one moment I put toward quizzing and learning God’s Word.</small></p>
+                        <footer><strong>Micheal Odupitan</strong>, example.com</footer>
                     </blockquote>
                 </div>
                 <div class="item">
@@ -184,8 +184,8 @@ events <a href="features.html">Learn More..</a></p>
                     
                     </p>
                     <blockquote class="no-symbol">
-                        <p>I have never imagined that our final product would look that good!</p>
-                        <footer><strong>David Cull</strong>, example.com</footer>
+                        <p><small>Memorizing scripture has also been a big plus for me.  I believe that being able to memorize entire books of the Bible has really helped me to understand the message of the gospel and resist the tendency to focus on one idea from scripture at the expense of others.  Learning to memorize the Bible still aids me in meditating on scripture, and this is one of the main ways I am able to make contact with God in my life.</small></p>
+                        <footer><strong>Timothy Simon</strong>, example.com</footer>
                     </blockquote>
                 </div>
                 <div class="item">
@@ -194,8 +194,8 @@ events <a href="features.html">Learn More..</a></p>
                   
                     </p>
                     <blockquote class="no-symbol">
-                        <p>An extraordinary service that helped us grow way too fast!</p>
-                        <footer><strong>Nathan Brown</strong>, example.com</footer>
+                        <p><small>As a parent, I have memorized right along with my younger ones.  I have seen what wonderful little sponges their brains are and how easily they can retain what they’ve learned.  I have seen the benefits of ‘training your brain’ academically.  The biggest blessing lately has been to see how obeying God by hiding His Word in our hearts.</small></p>
+                        <footer><strong>Mrs Folashade</strong>, example.com</footer>
                     </blockquote>
                 </div>
             </div>

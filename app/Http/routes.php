@@ -11,30 +11,30 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', array('as'=>'home', function () {
     return view('home');
-});
+}));
 
-Route::get('/contactus', function () {
+Route::get('/contactus', array('as'=>'contact',function () {
     return view('contact');
-});
+}));
 
 Route::get('/aboutus', array('as'=>'about', function () {
     return view('about');
 }));
 
-Route::get('/quiz', function () {
+Route::get('/quiz', array('as'=>'quiz',function () {
     return view('quiz');
-});
+}));
 
-Route::get('/pricing', function () {
+Route::get('/pricing', array('as'=>'pricing', function () {
     return view('pricing');
-});
+}));
 
-Route::get('/howitwork', function () {
+Route::get('/howitwork', array('as'=>'howitwork',function () {
     return view('how_it_works');
-});
+}));
 
-Route::get('/features', function () {
+Route::get('/features', array('as'=>'features',function () {
     return view('features');
-});
+}));

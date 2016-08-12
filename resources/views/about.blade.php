@@ -7,8 +7,8 @@
                 <!-- Intro -->
                 <section class="site-section site-section-light site-section-top">
                     <div class="container">
-                        <h1 class="text-center animation-slideDown"><i class="fa fa-building-o"></i> <strong>Our Company</strong></h1>
-                        <h2 class="h3 text-center animation-slideUp"><strong>Built with love by passionate people!</strong></h2>
+                        <h1 class="text-center animation-slideDown"><i class="fa fa-building-o"></i> <strong>Bible Mastery</strong></h1>
+                        <h2 class="h3 text-center animation-slideUp"><strong>We lead ohers follow!</strong></h2>
                     </div>
                 </section>
                 <!-- END Intro -->
@@ -19,26 +19,30 @@
             <!-- END Media Container -->
 
             <!-- Company Info -->
+            
             <section class="site-content site-section">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-8">
                             <div class="site-block">
-                                <h3 class="site-heading"><strong>When</strong> did all start?</h3>
-                                <p>Maecenas ultrices, justo vel imperdiet gravida, urna ligula hendrerit nibh, ac cursus nibh sapien in purus. Mauris tincidunt tincidunt turpis in porta. Integer fermentum tincidunt auctor. Vestibulum ullamcorper, odio sed rhoncus imperdiet, enim elit sollicitudin orci, eget dictum leo mi nec lectus. Nam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum, varius vel euismod sed, tristique et lectus? Etiam egestas fringilla enim, id convallis lectus laoreet at. Fusce purus nisi, gravida sed consectetur ut, interdum quis nisi. Quisque egestas nisl id lectus facilisis scelerisque? Proin rhoncus dui at ligula vestibulum ut facilisis ante sodales! Suspendisse potenti. Aliquam tincidunt sollicitudin sem nec ultrices. Sed at mi velit. Ut egestas tempor est, in cursus enim venenatis eget!</p>
+                            
+                                <h3 class="site-heading"><strong>synopsis</strong> <!--we do--></h3>
+                                <p>Take this test of basic Bible knowledge to help assess your biblical literacy.  This simple quiz examines some of the key doctrines and events of the Bible.  It will give you a good feel for your breadth and depth of Scriptural knowledge.<br />It’s alarming  to see the drop in biblical literacy among young christians. Growing numbers of people don’t know what the Bible says, even the most basic foundational truths and people and facts.
+                                </p>
                             </div>
                             <div class="site-block">
-                                <h3 class="site-heading"><strong>Where</strong> did all start?</h3>
-                                <p>Donec lacinia venenatis metus at bibendum? In hac habitasse platea dictumst. Proin ac nibh rutrum lectus rhoncus eleifend. Sed porttitor pretium venenatis. Suspendisse potenti. Aliquam quis ligula elit. Aliquam at orci ac neque semper dictum. Sed tincidunt scelerisque ligula, et facilisis nulla hendrerit non. Suspendisse potenti. Pellentesque non accumsan orci. Praesent at lacinia dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <!--<h3 class="site-heading"><strong>Why</strong> we do so</h3>-->
+                               <!-- <p>It’s alarming  to see the drop in biblical literacy among young christians. Growing numbers of people don’t know what the Bible says, even the </p>-->
                             </div>
                             <div class="site-block">
-                                <h3 class="site-heading"><strong>What</strong> will the future bring?</h3>
+                                <!--<h3 class="site-heading"><strong>What</strong> will the future bring?</h3>-->
                                 <p>Mauris tincidunt tincidunt turpis in porta. Integer fermentum tincidunt auctor. Vestibulum ullamcorper, odio sed rhoncus imperdiet, enim elit sollicitudin orci, eget dictum leo mi nec lectus. Nam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum, varius vel euismod sed, tristique et lectus? Etiam egestas fringilla enim, id convallis lectus laoreet at. Fusce purus nisi, gravida sed consectetur ut, interdum quis nisi. Quisque egestas nisl id lectus facilisis scelerisque? Proin rhoncus dui at ligula vestibulum ut facilisis ante sodales! Suspendisse potenti. Aliquam tincidunt sollicitudin sem nec ultrices. Sed at mi velit. Ut egestas tempor est, in cursus enim venenatis eget!</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="site-block">
-                                <table class="table table-bordered table-striped text-center">
+                            <img src="{{asset('img/placeholders/screenshots/bmast.jpg')}}" class="img-responsive" alt="Promo #3" />
+                                <!--<table class="table table-bordered table-striped text-center">
                                     <thead>
                                         <tr>
                                             <th class="text-center">Year</th>
@@ -72,14 +76,14 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                            </div>
+-->                            </div>
                             <div class="site-block">
                                 <p class="text-center">
                                     <img src="img/placeholders/avatars/avatar2.jpg" alt="Avatar" class="img-circle">
                                 </p>
                                 <blockquote>
                                     <p>I'm grateful we made it that far and continue strong! Thank you all for supporting us!</p>
-                                    <footer><strong>John Doe</strong>, CEO</footer>
+                                    <footer><strong><!--John Doe--></strong>, CEO</footer>
                                 </blockquote>
                             </div>
                         </div>
@@ -92,7 +96,7 @@
             <section class="site-content site-section themed-background-dark-night">
                 <div class="container">
                     <div class="site-block text-center">
-                        <a href="contact.html" class="btn btn-lg btn-primary">Let's work together!</a>
+                        <a href="{{ route('contact') }}" class="btn btn-lg btn-primary">Let's work together!</a>
                     </div>
                 </div>
             </section>
@@ -107,25 +111,25 @@
                         <div class="col-sm-6 col-md-3">
                             <div class="counter site-block">
                                 <span data-toggle="countTo" data-to="6800" data-after="+"></span>
-                                <small>Projects</small>
+                                <small>Trafic</small>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-3">
                             <div class="counter site-block">
                                 <span data-toggle="countTo" data-to="5500" data-after="+"></span>
-                                <small>Happy Customers</small>
+                                <small>Questions</small>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-3">
                             <div class="counter site-block">
                                 <span data-toggle="countTo" data-to="12362"></span>
-                                <small>Cups of Coffee</small>
+                                <small>Registration Today</small>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-3">
                             <div class="counter site-block">
                                 <span data-toggle="countTo" data-to="2150"></span>
-                                <small>Awesome Days</small>
+                                <small>Quiz Taken</small>
                             </div>
                         </div>
                     </div>

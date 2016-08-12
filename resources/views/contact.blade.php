@@ -11,9 +11,9 @@
             </section>
             <!-- END Intro -->
 
-            <!-- Google Map -->
+            <!-- Google Map 
             <section class="site-content">
-                <!-- Gmaps.js (initialized in js/pages/contact.js), for more examples you can check out http://hpneo.github.io/gmaps/examples.html -->
+                <!-- Gmaps.js (initialized in js/pages/contact.js), for more examples you can check out http://hpneo.github.io/gmaps/examples.html 
                 <div id="gmap" style="height: 350px;"></div>
             </section>
             <!-- END Google Map -->

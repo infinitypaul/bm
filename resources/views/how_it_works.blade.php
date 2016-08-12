@@ -5,7 +5,7 @@
             <section class="site-section site-section-light site-section-top themed-background-dark">
                 <div class="container">
                     <h1 class="text-center animation-slideDown"><i class="fa fa-cogs"></i> <strong>How it works</strong></h1>
-                    <h2 class="h3 text-center animation-slideUp">We can help <strong>you succeed</strong>!</h2>
+                    <h2 class="h3 text-center animation-slideUp">These are the basic steps you need <strong>to follow</strong>!</h2>
                 </div>
             </section>
             <!-- END Intro -->
@@ -93,7 +93,7 @@
             <!-- Sign Up Action -->
             <section class="site-content site-section site-section-light themed-background-dark">
                 <div class="container">
-                    <h3 class="site-heading text-center"><strong>Sign Up Today</strong> and receive <strong>30% discount</strong>!</h3>
+                    <h3 class="site-heading text-center"><strong>Sign Up Today</strong> and start a <strong>Quiz</strong>!</h3>
                     <div class="site-block text-center">
                         <form action="features.html" method="post" class="form-horizontal" onsubmit="return false;">
                             <div class="form-group">
@@ -133,8 +133,8 @@
             <img src="{{asset('img/placeholders/avatars/avatar12.jpg')}}" class="img-circle" alt="Avatar">
                                 </p>
                                 <blockquote class="no-symbol">
-                                    <p>Our products reached thousands of customers from all over the world in under 5 minutes! Amazing!</p>
-                                    <footer><strong>Sophie Illich</strong>, example.com</footer>
+                                    <p><small> I have a better understanding of the Bible due to my participation in quizzing and pouring over those valuable passages.  I remember more lessons from the Bible because of quizzing.  God wrote those lessons on my heart and to this day the Spirit will bring those back to me.  God helped me learn the passages if I just put Him first.  I have never once regretted one moment I put toward quizzing and learning God’s Word.</small></p>
+                                    <footer><strong>Micheal Odupitan</strong>, example.com</footer>
                                 </blockquote>
                             </div>
                             <div class="item">
@@ -142,8 +142,8 @@
                       <img src="{{asset('img/placeholders/avatars/avatar7.jpg')}}" class="img-circle" alt="Avatar">
                                 </p>
                                 <blockquote class="no-symbol">
-                                    <p>The user on-boarding process was the easiest I've ever experienced!</p>
-                                    <footer><strong>David Cull</strong>, example.com</footer>
+                                    <p><small>Memorizing scripture has also been a big plus for me.  I believe that being able to memorize entire books of the Bible has really helped me to understand the message of the gospel and resist the tendency to focus on one idea from scripture at the expense of others.  Learning to memorize the Bible still aids me in meditating on scripture, and this is one of the main ways I am able to make contact with God in my life.</small></p>
+                                    <footer><strong>Timothy Simon</strong>, example.com</footer>
                                 </blockquote>
                             </div>
                             <div class="item">
@@ -151,8 +151,8 @@
                   <img src="{{asset('img/placeholders/avatars/avatar9.jpg')}}" class="img-circle" alt="Avatar">
                                 </p>
                                 <blockquote class="no-symbol">
-                                    <p>An extraordinary service that helped us grow way too fast!</p>
-                                    <footer><strong>Nathan Brown</strong>, example.com</footer>
+                                    <p><small>As a parent, I have memorized right along with my younger ones.  I have seen what wonderful little sponges their brains are and how easily they can retain what they’ve learned.  I have seen the benefits of ‘training your brain’ academically.  The biggest blessing lately has been to see how obeying God by hiding His Word in our hearts.</small></p>
+                                    <footer><strong>Mrs Folashade</strong>, example.com</footer>
                                 </blockquote>
                             </div>
                         </div>

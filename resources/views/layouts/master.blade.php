@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>ProUI Frontend - Responsive Bootstrap Site Template</title>
+    <title>Bible Mastery Bible quiz</title>
 
     <meta name="description" content="ProUI Frontend is a Responsive Bootstrap Site Template created by pixelcave and added as a bonus in ProUI Admin Template package which is published on Themeforest.">
     <meta name="author" content="pixelcave">
@@ -53,7 +53,7 @@
         <div class="container">
             <!-- Site Logo -->
             <a href="index.html" class="site-logo">
-                <i class="gi gi-flash"></i> <strong>Pro</strong>UI
+                <i class="gi gi-flash"></i> <strong>Bible</strong>Mastery
             </a>
             <!-- Site Logo -->
 
@@ -76,7 +76,7 @@
                     </li>
                     <!-- END Menu Toggle -->
                     <li class="active">
-                        <a href=""></i>Home</a>
+                        <a href="{{ route('home') }}"></i>Home</a>
                        <!--i Remove here -->
                        
                     </li>
@@ -86,31 +86,31 @@
                             <li>
 								<!--i Remove here -->
                                 
-                                <a href="quiz.html">Quiz</a>
+                                <a href="{{ route('quiz') }}">Quiz</a>
                             </li>
                             <li>
-                                <a href="how_it_works.php">How it works</a>
+                                <a href="{{ route('howitwork') }}">How it works</a>
                             </li>
                         </ul>
                     </li>
                     
                     <li>
-                        <a href="features.html">Features</a>
+                        <a href="{{ route('features') }}">Features</a>
                     </li>
                     <li>
-                        <a href="pricing.html">Pricing</a>
+                        <a href="{{ route('pricing') }}">Pricing</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="{{ route('contact') }}">Contact</a>
                     </li>
                     <li>
                         <a href="{{ route('about') }}">About</a>
                     </li>
                     <li>
-                        <a href="login.html" class="btn btn-primary">Log In</a>
+                        <a href="#" class="btn btn-primary">Log In</a>
                     </li>
                     <li>
-                        <a href="signup.html" class="btn btn-success">Sign Up</a>
+                        <a href="#" class="btn btn-success">Sign Up</a>
                     </li>
                 </ul>
                 <!-- END Main Menu -->
@@ -131,9 +131,9 @@
                 <div class="col-sm-6 col-md-3">
                     <h4 class="footer-heading">About Us</h4>
                     <ul class="footer-nav list-inline">
-                        <li><a href="about.html">Company</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="contact.html">Support</a></li>
+                        <li><a href="{{ route('about') }}">Company</a></li>
+                        <li><a href="{{ route('contact') }}">Contact</a></li>
+                        <li><a href="{{ route('contact') }}">Support</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-6 col-md-3">
@@ -156,7 +156,7 @@
                 <div class="col-sm-6 col-md-3">
                     <h4 class="footer-heading"><span id="year-copy">2016</span> &copy; <a href="http://goo.gl/TDOSuC">Bible Mastery</a></h4>
                     <ul class="footer-nav list-inline">
-                        <li>Designed by <i class="fa fa-heart text-danger"></i> by <a href="http://goo.gl/vNS3I">Infinitypaul</a></li>
+                        <li>Designed <i class="fa fa-heart text-danger"></i> by <a href="http://goo.gl/vNS3I">Infinitypaul</a></li>
                     </ul>
                 </div>
             </div>
@@ -175,6 +175,7 @@
 <script src="{{asset('js/vendor/bootstrap.min.js')}}"></script>
 <script src="{{asset('js/plugins.js')}}"></script>
 <script src="{{asset('js/app.js')}}"></script>
+
 
 </body>
 </html>
