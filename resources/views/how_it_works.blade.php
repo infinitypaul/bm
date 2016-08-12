@@ -53,7 +53,7 @@
                     <div class="row visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100">
                         <div class="col-sm-6 col-md-5 site-block">
                             <h3 class="h2 site-heading site-heading-promo"><strong>Choose a</strong> package</h3>
-                            <p class="promo-content">We have packages tailored to meet your knowledge about the word of God.It comes in level.</p>
+                            <p class="promo-content"> We have packages tailored to meet your knowledge about the word of God.It comes in level.</p>
                         </div>
                         <div class="col-sm-6 col-md-offset-1 site-block">
              <img src="{{asset('img/placeholders/screenshots/promo_desktop_right.png')}}" class="img-responsive" alt="Promo #2">
