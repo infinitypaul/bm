@@ -127,7 +127,10 @@ audience in a lively BibleQuiz presentation. <br />We are available for churches
             </div>
             <div class="col-sm-6 col-md-5 col-md-offset-1 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInLeft" data-element-offset="-180">
                 <h3 class="h2 site-heading site-heading-promo"><strong>Win a Predetermined </strong>Grand Prize</h3>
-                <p class="promo-content">How well did you know the Bible? Take a quiz today and win yourself a predetemined grand price. <br> Our Television audience engage in a series of competition for weeks until a winner emerge  <a href="{{ route('contact') }}">Learn More..</a></p>
+                <p class="promo-content">How well did you know the Bible? Participate in BibleMastery and get $100 Cash REWARDS!!!<br />
+Our Television audience engage in a series of competition for weeks until a winner emerge<br />
+(This reward is for one participant with the highest score every month)<br />  
+<a href="{{ route('howitwork')}}  ">Learn More..</a></p>
             </div>
         </div>
         <hr>

@@ -60,8 +60,8 @@
                             <div class="site-block">
                                 <h3 class="h2 site-heading"><strong>Company</strong> Inc</h3>
                                 <address>
-                                    Address<br>
-                                    Town/City<br>
+                                    Address: 985 106th Lane NW #53 Coon Rapids<br>
+                                    Town/City: MN 55433<br>
                                     Region, Zip/Postal Code<br><br>
                                     <i class="fa fa-phone"></i> (000) 000-0000<br>
                                     <i class="fa fa-envelope-o"></i> <a href="javascript:void(0)">example@example.com</a>

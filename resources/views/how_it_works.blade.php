@@ -5,7 +5,7 @@
             <section class="site-section site-section-light site-section-top themed-background-dark">
                 <div class="container">
                     <h1 class="text-center animation-slideDown"><i class="fa fa-cogs"></i> <strong>How it works</strong></h1>
-                    <h2 class="h3 text-center animation-slideUp">These are the basic steps you need <strong>to follow</strong>!</h2>
+                    <h2 class="h3 text-center animation-slideUp">Welcome to <strong>BibleMastery</strong></h2>
                 </div>
             </section>
             <!-- END Intro -->
@@ -14,7 +14,7 @@
             <section class="site-content site-section site-section-light themed-background">
                 <div class="container">
                     <div class="site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100">
-                        <h1 class="site-heading"><i class="fa fa-arrow-right"></i> <strong> Step One</strong></h1>
+                        <h1 class="site-heading"><i class="fa fa-arrow-right"></i> <strong>Basic Level</strong></h1>
                     </div>
                 </div>
             </section>
@@ -29,8 +29,14 @@
                         
                         </div>
                         <div class="col-sm-6 col-md-5 col-md-offset-1 site-block">
-                            <h3 class="h2 site-heading site-heading-promo"><strong>Sign up</strong> to our platform</h3>
-                            <p class="promo-content">The first step is to sign up to our platform using our easy and quick to use registration form. You can get in your dashboard in under a minute!</p>
+                            <h3 class="h2 site-heading site-heading-promo "><strong>This level must be passed at 95%</strong>  to be considered for rewards but...</h3>
+                            <p class="promo-content" id="custom1">The quizzes are designed to reflect live quiz, so...
+The questions are timed and there's penalty for incorrect answers
+There are 40 questions to be completed within 15 minutes
+You will have the opportunity to review each question once the quiz is completed
+All questions and answers are in King James Version (KJV)of the Holy Bible<br />
+Click<a href="{{ route('quiz') }}"> Start Quiz </a>to proceed</p>
+</p>
                         </div>
                     </div>
                 </div>
@@ -41,7 +47,7 @@
             <section class="site-content site-section site-section-light themed-background">
                 <div class="container">
                     <div class="site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100">
-                        <h1 class="site-heading"><i class="fa fa-arrow-right"></i> <strong> Step Two</strong></h1>
+                        <h1 class="site-heading"><i class="fa fa-arrow-right"></i> <strong> Intermediate Level</strong></h1>
                     </div>
                 </div>
             </section>
@@ -52,8 +58,14 @@
                 <div class="container">
                     <div class="row visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100">
                         <div class="col-sm-6 col-md-5 site-block">
-                            <h3 class="h2 site-heading site-heading-promo"><strong>Choose a</strong> package</h3>
-                            <p class="promo-content"> We have packages tailored to meet your knowledge about the word of God.It comes in level.</p>
+                            <h3 class="h2 site-heading site-heading-promo"><strong>This level must be passed at 90%</strong>  to be considered for rewards but...</h3>
+                            <p class="promo-content" id="custom">You can take the quizzes as many times as you wish within one month until you passed it! 
+The quizzes are designed to reflect live quiz, so ...
+The questions are timed and there's penalty for incorrect answers
+There are 40 questions to be completed within 15 minutes
+You will have the opportunity to review each question once the quiz is completed
+All questions and answers are in King James Version (KJV) of the Holy Bible.<br />
+Click<a href="{{ route('quiz') }}"> Start Quiz </a>to proceed</p>
                         </div>
                         <div class="col-sm-6 col-md-offset-1 site-block">
              <img src="{{asset('img/placeholders/screenshots/promo_desktop_right.png')}}" class="img-responsive" alt="Promo #2">
@@ -68,19 +80,25 @@
             <section class="site-content site-section site-section-light themed-background">
                 <div class="container">
                     <div class="site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100">
-                        <h1 class="site-heading"><i class="fa fa-arrow-right"></i> <strong> Step Three</strong></h1>
+                        <h1 class="site-heading"><i class="fa fa-arrow-right"></i> <strong> Advance Level</strong></h1>
                     </div>
                 </div>
             </section>
             <!-- END Step 3 Header -->
 
-            <!-- Step 3 -->
+            <!-- Step 4 -->
             <section class="site-content site-section site-slide-content">
                 <div class="container">
                     <div class="row visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100">
                         <div class="col-sm-6 col-md-5 site-block">
-                            <h3 class="h2 site-heading site-heading-promo"><strong>Sit back</strong> and take a quiz!</h3>
-                            <p class="promo-content">And that was it! Relax and take the quiz, it will only take 60 minutes.Have fun and increase you knowledge. </p>
+                            <h3 class="h2 site-heading site-heading-promo"><strong>This level must be passed at 85% </strong>to be considered for rewards but...</h3>
+                            <p class="promo-content" id="custom">You can take the quizzes as many times as you wish within one month until you passed it! 
+The quizzes are designed to reflect live quiz, so ...
+The questions are timed and there's penalty for incorrect answers
+There are 40 questions to be completed within 15 minutes
+You will have the opportunity to review each question once the quiz is completed
+All questions and answers are in King James Version (KJV) of the Holy Bible.<br />
+Click<a href="{{ route('quiz') }}"> Start Quiz </a>to proceed</p>
                         </div>
                         <div class="col-sm-6 col-md-offset-1 site-block">
          <img src="{{asset('img/placeholders/screenshots/promo_mobile.png')}}" class="img-responsive" alt="Promo #4">
@@ -89,6 +107,44 @@
                 </div>
             </section>
             <!-- END Step 3 -->
+            <!-- Step 4 Header -->
+            <section class="site-content site-section site-section-light themed-background">
+                <div class="container">
+                    <div class="site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100">
+                        <h1 class="site-heading" ><!--<i class="fa fa-arrow-right"></i>--> <strong> PARTICIPATE IN BibleMastery AND GET $100 </strong>Cash REWARDS!!!</strong></h1>
+                    </div>
+                </div>
+            </section>
+            <!-- END Step 4 Header -->
+
+            <!-- Step 4 -->
+            <section class="site-content site-section site-slide-content">
+                <div class="container">
+                    <div class="row visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100">
+                        <div class="col-sm-6 col-md-5 site-block">
+                            <h3 class="h2 site-heading site-heading-promo"><strong>How to </strong>participate</h3>
+                            <p class="promo-content" id="custom">This is what to do<br />
+                            
+-	Simply complete registration and…<br />
+-	Get access to 6000+ questions<br />
+-	Practice quizzes until you passed and get rewarded <br />
+-	You have to pass the three levels within one month after your registration/payment to be considered for reward<br />
+-	The best candidate among those who passed the three levels in each region get cash rewards<br />
+-	Cash rewards up to $100 will be given out our monthly best <br />
+-	Beside cash reward, you may be invited to participate in live Bible QuizXpress <br />
+<strong>It’s that simple!</strong><br />
+Click<a href="{{ route('quiz') }}"> here </a>to Participate</p>
+                        </div>
+                        <div class="col-sm-6 col-md-offset-1 site-block">
+             <img src="{{asset('img/placeholders/screenshots/promo_desktop_right.png')}}" class="img-responsive" alt="Promo #2">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END Step 4 -->
+            
+            
 
             <!-- Sign Up Action -->
             <section class="site-content site-section site-section-light themed-background-dark">

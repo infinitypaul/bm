@@ -7,8 +7,8 @@
                 <!-- Intro -->
                 <section class="site-section site-section-light site-section-top">
                     <div class="container">
-                        <h1 class="text-center animation-slideDown"><i class="fa fa-building-o"></i> <strong>Bible Mastery</strong></h1>
-                        <h2 class="h3 text-center animation-slideUp"><strong>We lead ohers follow!</strong></h2>
+                        <h1 class="text-center animation-slideDown"><i class="fa fa-building-o"></i> <strong>BibleMastery</strong></h1>
+                        <h2 class="h3 text-center animation-slideUp"><strong>OneStop for all BibleQuiz</strong></h2>
                     </div>
                 </section>
                 <!-- END Intro -->
@@ -26,17 +26,29 @@
                         <div class="col-sm-8">
                             <div class="site-block">
                             
-                                <h3 class="site-heading"><strong>synopsis</strong> <!--we do--></h3>
-                                <p>Take this test of basic Bible knowledge to help assess your biblical literacy.  This simple quiz examines some of the key doctrines and events of the Bible.  It will give you a good feel for your breadth and depth of Scriptural knowledge.<br />It’s alarming  to see the drop in biblical literacy among young christians. Growing numbers of people don’t know what the Bible says, even the most basic foundational truths and people and facts.
+                                <h3 class="site-heading"><strong>About BibleMastery</strong> <!--we do--></h3>
+                                <p>This website is your repository for bible quizzes,
+                                If you desire to know, to learn and to win, consider BibleMastery<br />
+                                BibleMastery expose answers to questions others don’t know!<br />
+With 6000+ BibleQuizzes available for practice, you have a better chance of winning!<br />
+Simply by practicing, you can have mastery over BibleQuizzes. Thus, outsmarting your competitors in any live Bible Quizzes!<br />
+BibleMastery is a learning tool uniquely designed for you if you want to know, learn or win!!<br />
+Your participation will help us advance our goal.
+
+                                
                                 </p>
                             </div>
                             <div class="site-block">
-                                <!--<h3 class="site-heading"><strong>Why</strong> we do so</h3>-->
-                               <!-- <p>It’s alarming  to see the drop in biblical literacy among young christians. Growing numbers of people don’t know what the Bible says, even the </p>-->
+                                <h3 class="site-heading"><strong>Perspectives of </strong>BibleMastery</h3>
+                                <p>Our goal is to have as many people as possible engage in spiritual exercise by Mastering relevant facts about the Bible<br />
+Doing so will foster Biblical knowledge in this generation and beyond
+Thus, we ask you to take the challenge, spread the news and get involved….<br />
+Your participation in monetary terms will help advance our goals - We’ll be able to make more content available online and ultimately take BibleMastery to Television audience
+ </p>
                             </div>
                             <div class="site-block">
                                 <!--<h3 class="site-heading"><strong>What</strong> will the future bring?</h3>-->
-                                <p>Mauris tincidunt tincidunt turpis in porta. Integer fermentum tincidunt auctor. Vestibulum ullamcorper, odio sed rhoncus imperdiet, enim elit sollicitudin orci, eget dictum leo mi nec lectus. Nam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum, varius vel euismod sed, tristique et lectus? Etiam egestas fringilla enim, id convallis lectus laoreet at. Fusce purus nisi, gravida sed consectetur ut, interdum quis nisi. Quisque egestas nisl id lectus facilisis scelerisque? Proin rhoncus dui at ligula vestibulum ut facilisis ante sodales! Suspendisse potenti. Aliquam tincidunt sollicitudin sem nec ultrices. Sed at mi velit. Ut egestas tempor est, in cursus enim venenatis eget!</p>
+                               <!-- <p>Mauris tincidunt tincidunt turpis in porta. Integer fermentum tincidunt auctor. Vestibulum ullamcorper, odio sed rhoncus imperdiet, enim elit sollicitudin orci, eget dictum leo mi nec lectus. Nam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum, varius vel euismod sed, tristique et lectus? Etiam egestas fringilla enim, id convallis lectus laoreet at. Fusce purus nisi, gravida sed consectetur ut, interdum quis nisi. Quisque egestas nisl id lectus facilisis scelerisque? Proin rhoncus dui at ligula vestibulum ut facilisis ante sodales! Suspendisse potenti. Aliquam tincidunt sollicitudin sem nec ultrices. Sed at mi velit. Ut egestas tempor est, in cursus enim venenatis eget!</p>-->
                             </div>
                         </div>
                         <div class="col-sm-4">

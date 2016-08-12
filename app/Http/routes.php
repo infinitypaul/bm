@@ -46,3 +46,19 @@ Route::get('/signup', array('as'=>'signup',function () {
 Route::get('/login', array('as'=>'login',function () {
     return view('login');
 }));
+
+Route::get('/dashboard', array('as'=>'dash',function () {
+    return view('dashboard');
+}));
+
+Route::get('/courses', array('as'=>'courses',function () {
+    return view('courses');
+}));
+
+Route::get('/howtoengage', array('as'=>'engage',function () {
+    return view('howtoengage');
+}));
+
+Route::get('/blank', array('as'=>'blank',function () {
+    return view('blank');
+}));

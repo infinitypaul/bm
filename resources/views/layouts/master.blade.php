@@ -53,7 +53,7 @@
         <div class="container">
             <!-- Site Logo -->
             <a href="index.html" class="site-logo">
-                <i class="gi gi-flash"></i> <strong>Bible</strong>Masterys
+                <i class="gi gi-flash"></i> <strong>Bible</strong>Mastery
             </a>
             <!-- Site Logo -->
 
@@ -90,6 +90,9 @@
                             </li>
                             <li>
                                 <a href="{{ route('howitwork') }}">How it works</a>
+                            </li>
+                            <li>
+                                <a href="{{ route('engage') }}">How to engage</a>
                             </li>
                         </ul>
                     </li>

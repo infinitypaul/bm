@@ -1976,7 +1976,7 @@ p, .table, .alert, .carousel {
 
     /* General */
     .site-heading-promo {
-        margin-top: 60px;
+       /* margin-top: 60px;*/
     }
 
     .modal-body {
@@ -2105,7 +2105,7 @@ p, .table, .alert, .carousel {
     }
 
     .site-heading-promo {
-        margin-top: 120px;
+       /* margin-top: 120px;*/
     }
 
     .promo-content {
@@ -2127,3 +2127,9 @@ only screen and (min-device-pixel-ratio: 1.5) {
     /* If you did use a CSS image background, you can put your high resolution image here */
 
 }
+
+#custom {
+	font-size:19px;
+	
+#custom1 {
+	font-size:21px;	
