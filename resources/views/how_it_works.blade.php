@@ -52,8 +52,8 @@
                 <div class="container">
                     <div class="row visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100">
                         <div class="col-sm-6 col-md-5 site-block">
-                            <h3 class="h2 site-heading site-heading-promo"><strong>Add</strong> your products</h3>
-                            <p class="promo-content">Using our user interface, you can easily add all your products. Then, with one easy step, you can set a price and publish them on our global marketplace!</p>
+                            <h3 class="h2 site-heading site-heading-promo"><strong>Choose a</strong> package</h3>
+                            <p class="promo-content">We have packages tailored to meet your knowledge about the word of God.It comes in level.</p>
                         </div>
                         <div class="col-sm-6 col-md-offset-1 site-block">
              <img src="{{asset('img/placeholders/screenshots/promo_desktop_right.png')}}" class="img-responsive" alt="Promo #2">
@@ -79,8 +79,8 @@
                 <div class="container">
                     <div class="row visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100">
                         <div class="col-sm-6 col-md-5 site-block">
-                            <h3 class="h2 site-heading site-heading-promo"><strong>Sit back</strong> and relax!</h3>
-                            <p class="promo-content">And that was it! Relax and watch your as your products reach millions of mobile users all over the world!</p>
+                            <h3 class="h2 site-heading site-heading-promo"><strong>Sit back</strong> and take a quiz!</h3>
+                            <p class="promo-content">And that was it! Relax and take the quiz, it will only take 60 minutes.Have fun and increase you knowledge. </p>
                         </div>
                         <div class="col-sm-6 col-md-offset-1 site-block">
          <img src="{{asset('img/placeholders/screenshots/promo_mobile.png')}}" class="img-responsive" alt="Promo #4">

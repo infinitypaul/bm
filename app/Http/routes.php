@@ -38,3 +38,11 @@ Route::get('/howitwork', array('as'=>'howitwork',function () {
 Route::get('/features', array('as'=>'features',function () {
     return view('features');
 }));
+
+Route::get('/signup', array('as'=>'signup',function () {
+    return view('signup');
+}));
+
+Route::get('/login', array('as'=>'login',function () {
+    return view('login');
+}));

@@ -53,7 +53,7 @@
         <div class="container">
             <!-- Site Logo -->
             <a href="index.html" class="site-logo">
-                <i class="gi gi-flash"></i> <strong>Bible</strong>Mastery
+                <i class="gi gi-flash"></i> <strong>Bible</strong>Masterys
             </a>
             <!-- Site Logo -->
 
@@ -107,10 +107,10 @@
                         <a href="{{ route('about') }}">About</a>
                     </li>
                     <li>
-                        <a href="#" class="btn btn-primary">Log In</a>
+                        <a href="{{ route('login') }}" class="btn btn-primary">Log In</a>
                     </li>
                     <li>
-                        <a href="#" class="btn btn-success">Sign Up</a>
+                        <a href="{{ route('signup') }}" class="btn btn-success">Sign Up</a>
                     </li>
                 </ul>
                 <!-- END Main Menu -->
@@ -176,6 +176,12 @@
 <script src="{{asset('js/plugins.js')}}"></script>
 <script src="{{asset('js/app.js')}}"></script>
 
-
+ <!-- Load and execute javascript code used only in this page -->
+           <script src="{{asset('js/pages/login.js')}}"></script>
+        <script>$(function(){ Login.init(); });</script>
+        
+          <!-- Load and execute javascript code used only in this page -->
+        <script src="js/pages/signup.js"></script>
+        <script>$(function(){ Signup.init(); });</script>
 </body>
 </html>
