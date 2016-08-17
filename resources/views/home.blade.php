@@ -107,7 +107,7 @@ more <a href="{{ route('quiz') }}">Click here..</a></p>
                 <h3 class="h2 site-heading site-heading-promo"><strong>Powerful</strong> Quiz Template</h3>
                 <p class="promo-content">With our unique Quiz template, our team will engage the
 audience in a lively BibleQuiz presentation. <br />We are available for churches, conventions and events
- <a href="{{ route('about') }}">Learn More..</a></p>
+ <a href="">Learn More..</a></p>
             </div>
             <div class="col-sm-6 col-md-offset-1 site-block visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInLeft" data-element-offset="-180">
             <img src="{{asset('img/placeholders/screenshots/promo_desktop_right.png')}}" class="img-responsive" alt="Promo #2">

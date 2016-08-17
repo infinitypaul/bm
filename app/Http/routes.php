@@ -11,17 +11,12 @@
 |
 */
 
-Route::get('/', array('as'=>'home', function () {
-    return view('home');
-}));
+Route::controller('/', 'HomeController');
 
 Route::get('/contactus', array('as'=>'contact',function () {
     return view('contact');
 }));
 
-Route::get('/aboutus', array('as'=>'about', function () {
-    return view('about');
-}));
 
 Route::get('/quiz', array('as'=>'quiz',function () {
     return view('quiz');

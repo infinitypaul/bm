@@ -76,7 +76,7 @@
                     </li>
                     <!-- END Menu Toggle -->
                     <li class="active">
-                        <a href="{{ route('home') }}"></i>Home</a>
+                        <a href="{{ action('HomeController@getIndex') }}"></i>Home</a>
                        <!--i Remove here -->
                        
                     </li>
@@ -107,7 +107,7 @@
                         <a href="{{ route('contact') }}">Contact</a>
                     </li>
                     <li>
-                        <a href="{{ route('about') }}">About</a>
+                        <a href="{{ action('HomeController@getAbout') }}">About</a>
                     </li>
                     <li>
                         <a href="{{ route('login') }}" class="btn btn-primary">Log In</a>
@@ -134,7 +134,7 @@
                 <div class="col-sm-6 col-md-3">
                     <h4 class="footer-heading">About Us</h4>
                     <ul class="footer-nav list-inline">
-                        <li><a href="{{ route('about') }}">Company</a></li>
+                        <li><a href="">Company</a></li>
                         <li><a href="{{ route('contact') }}">Contact</a></li>
                         <li><a href="{{ route('contact') }}">Support</a></li>
                     </ul>
