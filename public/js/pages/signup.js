@@ -37,6 +37,10 @@ var Signup = function() {
                         required: true,
                         minlength: 5
                     },
+                    'register-phone': {
+                        required: true,
+                        minlength: 5
+                    },
                     'register-password-verify': {
                         required: true,
                         equalTo: '#register-password'
@@ -51,6 +55,7 @@ var Signup = function() {
                         minlength: 'Please enter your firstname'
                     },
                     'register-email': 'Please enter a valid email address',
+                    'register-phone': 'Please enter a valid mobile no',
                     'register-password': {
                         required: 'Please provide a password',
                         minlength: 'Your password must be at least 5 characters long'

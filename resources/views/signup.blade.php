@@ -15,14 +15,38 @@
             <section class="site-content site-section">
                 <div class="container">
                     <div class="row">
+
                         <div class="col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 site-block">
+
+                            @if (count($errors) > 0)
+
+                            <div class="alert alert-danger alert-dismissable">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                <h4><i class="fa fa-times-circle"></i> Error</h4>
+                                <ul>
+                                    @foreach($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                        @endforeach
+                                </ul>
+                                <a href="javascript:void(0)" class="alert-link"></a>
+                            </div>
+                            @endif
                             <!-- Sign Up Form -->
-                            <form action="signup.html" method="post" id="form-sign-up" class="form-horizontal">
+                            {!!   Form::open(array('url' => 'register', 'class' => 'form-horizontal',
+                            'id'=>'form-sign-up')
+                            ) !!}
+                                {{ csrf_field()}}
                                 <div class="form-group">
                                     <div class="col-xs-12">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="gi gi-user"></i></span>
-                                            <input type="text" id="register-firstname" name="register-firstname" class="form-control input-lg" placeholder="First name">
+                                            {{ Form::text('username', null, array(
+    'placeholder' => 'username',
+    'required' => 'required',
+    'class'=>'form-control input-lg',
+    'id' => 'register-firstname'
+)) }}
+
                                         </div>
                                     </div>
                                 </div>
@@ -30,23 +54,56 @@
                                     <div class="col-xs-12">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="gi gi-envelope"></i></span>
-                                            <input type="email" id="register-email" name="register-email" class="form-control input-lg" placeholder="Email">
+                                            {{ Form::email('email', null, array(
+   'placeholder' => 'Email Address',
+   'required' => 'required',
+   'class'=>'form-control input-lg',
+   'id' => 'register-email'
+)) }}
+
                                         </div>
                                     </div>
                                 </div>
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                                        {{ Form::number('mobile', null, array(
+'placeholder' => 'Mobile No',
+'required' => 'required',
+'class'=>'form-control input-lg',
+'id' => 'register-mobile'
+)) }}
+
+                                    </div>
+                                </div>
+                            </div>
                                 <div class="form-group">
                                     <div class="col-xs-12">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="gi gi-asterisk"></i></span>
-                                            <input type="password" id="register-password" name="register-password" class="form-control input-lg" placeholder="Password">
+                                            {{ Form::password('password', array(
+  'placeholder' => 'Password',
+  'required' => 'required',
+  'class'=>'form-control input-lg',
+  'id' => 'register-password'
+)) }}
+
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="form-group">
                                     <div class="col-xs-12">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="gi gi-asterisk"></i></span>
-                                            <input type="password" id="register-password-verify" name="register-password-verify" class="form-control input-lg" placeholder="Verify Password">
+                                            {{ Form::password('Password-retype', array(
+  'placeholder' => 'Verify Password',
+  'required' => 'required',
+  'class'=>'form-control input-lg',
+  'id' => 'register-password-verify'
+)) }}
+
                                         </div>
                                     </div>
                                 </div>
@@ -58,10 +115,14 @@
                                         <a href="#modal-terms" data-toggle="modal" class="register-terms"><small>View Terms</small></a>
                                     </div>
                                     <div class="col-xs-6 text-right">
-                                        <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-plus"></i> Sign Up</button>
+                                        {!!  Form::button('<i class="fa fa-plus"></i> Register Now', array(
+                                    'class' => 'btn btn-sm btn-primary',
+                                    'type' => 'submit'
+                                    ))  !!}
+
                                     </div>
                                 </div>
-                            </form>
+                            {!!  Form::close()  !!}
                             <!-- END Sign Up Form -->
                         </div>
                     </div>
@@ -136,30 +197,30 @@ v.	transfer the materials to another person or "mirror" the materials on any oth
                             <p>
 In no event shall Blessed Assurance Providence Limited or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption,) arising out of the use or inability to use the materials on Blessed Assurance Providence Limited's Internet site, even if Blessed Assurance Providence Limited or a Blessed Assurance Providence Limited authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.
 </p>
-                            
+
                             <h4>5. Revisions and Errata</h4>
                             <p>
 The materials appearing on Blessed Assurance Providence Limited's web site could include technical, typographical, or photographic errors. Blessed Assurance Providence Limited does not warrant that any of the materials on its web site are accurate, complete, or current. Blessed Assurance Providence Limited may make changes to the materials contained on its web site at any time without notice. Blessed Assurance Providence Limited does not, however, make any commitment to update the materials.
 </p>
-                            
+
                             <h4>6. Links</h4>
                             <p>
 Blessed Assurance Providence Limited has not reviewed all of the sites linked to its Internet web site and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Blessed Assurance Providence Limited of the site. Use of any such linked web site is at the user's own risk.
 </p>
-                            
+
                             <h4>7. Site Terms of Use Modifications</h4>
                             <p>
 Blessed Assurance Providence Limited may revise these terms of use for its web site at any time without notice. By using this web site you are agreeing to be bound by the then current version of these Terms and Conditions of Use.
 </p>
-                            
+
                             <h4>8. Governing Law</h4>
                             <p>
 Any claim relating to Blessed Assurance Providence Limited's web site shall be governed by the laws of the State of MINNESOTA without regard to its conflict of law provisions.
 </p>
-                            
+
                             <h4><strong>General Terms and Conditions applicable to Use of a Web Site.</strong></h4>
 
-                            
+
                             <h4>Privacy Policy</h4>
                             <p>
 Your privacy is very important to us. Accordingly, we have developed this Policy in order for you to understand how we collect, use, communicate and disclose and make use of personal information. The following outlines our privacy policy.
@@ -179,4 +240,3 @@ We are committed to conducting our business in accordance with these principles 
             <!-- END Modal Terms -->
 
             @stop
-           

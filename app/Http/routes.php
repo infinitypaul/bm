@@ -10,6 +10,7 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+Route::post('/register','UserController@store');
 
 Route::controller('/', 'HomeController');
 
@@ -18,7 +19,7 @@ Route::get('/contactus', array('as'=>'contact',function () {
 }));
 
 
-Route::get('/quiz', array('as'=>'quiz',function () {
+Route::post('/quiz', array('as'=>'quiz',function () {
     return view('quiz');
 }));
 
