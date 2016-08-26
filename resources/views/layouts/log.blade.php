@@ -938,53 +938,64 @@
 
                     <!-- Modal Body -->
                     <div class="modal-body">
-                        <form action="index.html" method="post" enctype="multipart/form-data" class="form-horizontal form-bordered" onsubmit="return false;">
+                        @include('layouts.error')
+                        {!!   Form::open(array('url' => 'dashboard/'.$user->id, 'class' => 'form-horizontal
+                        form-borderedl',
+                          'id'=>'form-sign-up', 'enctype'=>'multipart/form-data', 'method'=>'put')
+                          ) !!}
+                        {{ csrf_field()}}
                             <fieldset>
-                                <legend>Vital Info</legend>
+                                <legend>Vital Info For {{ $user->username }}</legend>
                                 <div class="form-group">
-                                    <label class="col-md-4 control-label">Username</label>
+                                    <label class="col-md-4 control-label">Mobile Number</label>
                                     <div class="col-md-8">
-                                        <p class="form-control-static">Admin</p>
+                                        <input type="number" id="user-settings-number" name="number" class="form-control" value="admin@example.com">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-md-4 control-label" for="user-settings-email">Email</label>
                                     <div class="col-md-8">
-                                        <input type="email" id="user-settings-email" name="user-settings-email" class="form-control" value="admin@example.com">
+                                        <input type="email" id="user-settings-email" name="email" class="form-control" value="admin@example.com">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-md-4 control-label" for="user-settings-notifications">Email Notifications</label>
+                                    <label class="col-md-4 control-label"
+                                           for="user-settings-notifications">Profile Picture</label>
                                     <div class="col-md-8">
-                                        <label class="switch switch-primary">
-                                            <input type="checkbox" id="user-settings-notifications" name="user-settings-notifications" value="1" checked>
-                                            <span></span>
-                                        </label>
+
+                                            {!! Form::uploadcare('image', null, array('data-crop' => '3:4')) !!}
+
+
+                                            {!! Uploadcare::scriptTag() !!}
+
+
                                     </div>
                                 </div>
                             </fieldset>
+
                             <fieldset>
                                 <legend>Password Update</legend>
                                 <div class="form-group">
                                     <label class="col-md-4 control-label" for="user-settings-password">New Password</label>
                                     <div class="col-md-8">
-                                        <input type="password" id="user-settings-password" name="user-settings-password" class="form-control" placeholder="Please choose a complex one..">
+                                        <input type="password" id="user-settings-password" name="password" class="form-control" placeholder="Please choose a complex one..">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-md-4 control-label" for="user-settings-repassword">Confirm New Password</label>
                                     <div class="col-md-8">
-                                        <input type="password" id="user-settings-repassword" name="user-settings-repassword" class="form-control" placeholder="..and confirm it!">
+                                        <input type="password" id="user-settings-repassword" name="repassword" class="form-control" placeholder="..and confirm it!">
                                     </div>
                                 </div>
                             </fieldset>
                             <div class="form-group form-actions">
                                 <div class="col-xs-12 text-right">
                                     <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+
                                     <button type="submit" class="btn btn-sm btn-primary">Save Changes</button>
                                 </div>
                             </div>
-                        </form>
+                        {!!  Form::close()  !!}
                     </div>
                     <!-- END Modal Body -->
                 </div>
@@ -1008,5 +1019,10 @@
         <!-- Load and execute javascript code used only in this page -->
         <script src="js/pages/index.js"></script>
         <script>$(function(){ Index.init(); });</script>
+    @if(count($errors) > 0)
+        <script>
+        $('#modal-user-settings').modal('show');
+        </script>
+        @endif
     </body>
 </html>

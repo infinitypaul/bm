@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4ae2ea8c1a8866cfee47992b7a89b6c4",
-    "content-hash": "6eeef6f780076ebaf60e84e5081d738b",
+    "hash": "e063ad1553a41486fbc5f968e2c721e1",
+    "content-hash": "ee4ab57e57efbf5d95a32b3d05353e7e",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -162,6 +162,52 @@
             "time": "2015-11-06 14:35:42"
         },
         {
+            "name": "inwave/laravel-uploadcare",
+            "version": "1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/InWave/laravel-uploadcare.git",
+                "reference": "933670ec4a982173bb55a80c96ee72662304b535"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/InWave/laravel-uploadcare/zipball/933670ec4a982173bb55a80c96ee72662304b535",
+                "reference": "933670ec4a982173bb55a80c96ee72662304b535",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": ">=5.1.0",
+                "laravelcollective/html": ">=5.1.0",
+                "php": ">=5.4.0",
+                "uploadcare/uploadcare-php": ">=v1.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Inwave\\LaravelUploadcare": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clément Salaün",
+                    "email": "clem@32b6.com",
+                    "homepage": "http://32b6.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel Serviceprovider for Uploadcare",
+            "homepage": "https://github.com/InWave/laravel-uploadcare.git",
+            "keywords": [
+                "laravel",
+                "uploadcare"
+            ],
+            "time": "2016-01-28 18:04:31"
+        },
+        {
             "name": "jakub-onderka/php-console-color",
             "version": "0.1",
             "source": {
@@ -308,16 +354,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.2.43",
+            "version": "v5.2.44",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "5490b8f00564bb60839002f86828e27edd1e5610"
+                "reference": "f24b7acfb494437ef00bdd062bed61eb21535546"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/5490b8f00564bb60839002f86828e27edd1e5610",
-                "reference": "5490b8f00564bb60839002f86828e27edd1e5610",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/f24b7acfb494437ef00bdd062bed61eb21535546",
+                "reference": "f24b7acfb494437ef00bdd062bed61eb21535546",
                 "shasum": ""
             },
             "require": {
@@ -398,7 +444,7 @@
                 "pusher/pusher-php-server": "Required to use the Pusher broadcast driver (~2.0).",
                 "symfony/css-selector": "Required to use some of the crawler integration testing tools (2.8.*|3.0.*).",
                 "symfony/dom-crawler": "Required to use most of the crawler integration testing tools (2.8.*|3.0.*).",
-                "symfony/psr-http-message-bridge": "Required to psr7 bridging features (0.2.*)."
+                "symfony/psr-http-message-bridge": "Required to use psr7 bridging features (0.2.*)."
             },
             "type": "library",
             "extra": {
@@ -434,7 +480,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-08-10 12:23:59"
+            "time": "2016-08-23 13:03:29"
         },
         {
             "name": "laravelcollective/html",
@@ -1826,6 +1872,53 @@
             "time": "2016-07-26 08:03:56"
         },
         {
+            "name": "uploadcare/uploadcare-php",
+            "version": "v1.5.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uploadcare/uploadcare-php.git",
+                "reference": "cdbba2adfc6bafd95e6cd99ad20a6fe028cbe47a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uploadcare/uploadcare-php/zipball/cdbba2adfc6bafd95e6cd99ad20a6fe028cbe47a",
+                "reference": "cdbba2adfc6bafd95e6cd99ad20a6fe028cbe47a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Uploadcare": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Uploadcare, LLC",
+                    "email": "hello@uploadcare.com"
+                }
+            ],
+            "description": "Uploadcare API binding for PHP",
+            "homepage": "https://uploadcare.com",
+            "keywords": [
+                "cdn",
+                "cloud",
+                "files",
+                "image management",
+                "upload",
+                "uploadcare"
+            ],
+            "time": "2016-05-25 17:22:20"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v2.3.0",
             "source": {
@@ -2951,23 +3044,23 @@
         },
         {
             "name": "sebastian/environment",
-            "version": "1.3.7",
+            "version": "1.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "4e8f0da10ac5802913afc151413bc8c53b6c2716"
+                "reference": "be2c607e43ce4c89ecd60e75c6a85c126e754aea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/4e8f0da10ac5802913afc151413bc8c53b6c2716",
-                "reference": "4e8f0da10ac5802913afc151413bc8c53b6c2716",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/be2c607e43ce4c89ecd60e75c6a85c126e754aea",
+                "reference": "be2c607e43ce4c89ecd60e75c6a85c126e754aea",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": "^5.3.3 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.4"
+                "phpunit/phpunit": "^4.8 || ^5.0"
             },
             "type": "library",
             "extra": {
@@ -2997,7 +3090,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2016-05-17 03:18:57"
+            "time": "2016-08-18 05:49:44"
         },
         {
             "name": "sebastian/exporter",

@@ -10,10 +10,10 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+
+Route::resource('dashboard', 'UserController');
 Route::post('/register','UserController@store');
-
 Route::controller('/', 'HomeController');
-
 Route::get('/contactus', array('as'=>'contact',function () {
     return view('contact');
 }));
@@ -43,9 +43,9 @@ Route::get('/login', array('as'=>'login',function () {
     return view('login');
 }));
 
-Route::get('/dashboard', array('as'=>'dash',function () {
-    return view('dashboard');
-}));
+//Route::get('/dashboard', array('as'=>'dash',function () {
+//    return view('dashboard');
+//}));
 
 Route::get('/courses', array('as'=>'courses',function () {
     return view('courses');

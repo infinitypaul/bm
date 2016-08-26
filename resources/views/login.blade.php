@@ -16,13 +16,30 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 site-block">
+                            @if (count($errors) > 0)
+
+                                <div class="alert alert-danger alert-dismissable">
+                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                    <h4><i class="fa fa-times-circle"></i> Error</h4>
+                                    <ul>
+                                        @foreach($errors->all() as $error)
+                                            <li>{{ $error }}</li>
+                                        @endforeach
+                                    </ul>
+                                    <a href="javascript:void(0)" class="alert-link"></a>
+                                </div>
+                                @endif
                             <!-- Log In Form -->
-                            <form action="login.html" method="post" id="form-log-in" class="form-horizontal">
+                            {!!   Form::open(array('url' => 'login', 'class' => 'form-horizontal',
+                            'id'=>'form-sign-up')
+                            ) !!}
+                            {{ csrf_field()}}
                                 <div class="form-group">
                                     <div class="col-xs-12">
                                         <div class="input-group">
-                                            <span class="input-group-addon"><i class="gi gi-envelope"></i></span>
-                                            <input type="email" id="login-email" name="login-email" class="form-control input-lg" placeholder="Email">
+                                            <span class="input-group-addon"><i class="gi gi-user"></i></span>
+                                            <input type="text" id="login-email" name="username" class="form-control
+                                            input-lg" placeholder="Username">
                                         </div>
                                     </div>
                                 </div>
@@ -30,7 +47,7 @@
                                     <div class="col-xs-12">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="gi gi-asterisk"></i></span>
-                                            <input type="password" id="login-password" name="login-password" class="form-control input-lg" placeholder="Password">
+                                            <input type="password" id="login-password" name="password" class="form-control input-lg" placeholder="Password">
                                         </div>
                                     </div>
                                 </div>
@@ -48,7 +65,7 @@
                                 <div class="form-group">
 
                                 </div>
-                            </form>
+                            {!!  Form::close()  !!}
                             <div class="text-center">
                                 <a href="javascript:void(0)"><small>Forgot password?</small></a>
                             </div>
